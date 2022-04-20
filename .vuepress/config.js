@@ -28,30 +28,29 @@ module.exports = {
         link: '/',
         icon: 'reco-home',
       },
-      {
-        text: '文档',
-        icon: 'reco-message',
-        items: [
-          {
-            text: '知识点',
-            link: '/docs/components/',
-          },
-        ],
-      },
+      // {
+      //   text: '文档',
+      //   icon: 'reco-message',
+      //   items: [
+      //     {
+      //       text: '知识点',
+      //       link: '/docs',
+      //     },
+      //   ],
+      // },
       {
         text: 'Contact',
         icon: 'reco-github',
         items: [
           {
             text: 'GitHub',
-            link: 'https://github.com/springsheep/interviewSummary',
+            link: 'https://github.com/coderdeh',
           },
         ],
       },
     ],
     sidebar: {
-      '/docs/other/': ['', 'theme', 'plugin', 'api'],
-      '/docs/components/': ['', 'js', 'vue', 'webpack', 'browser', 'micro-front-end', 'git', 'nginx'],
+      '/docs/': ['JS', 'vue', 'webpack', 'browser', 'micro-front-end', 'git', 'nginx'],
     },
     type: 'blog',
     blogConfig: {
@@ -66,7 +65,7 @@ module.exports = {
     },
     friendLink: [
       {
-        title: 'vuepress-theme-reco1',
+        title: 'vuepress-theme-reco',
         desc: 'A simple and beautiful vuepress Blog & Doc theme.',
         avatar: 'https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png',
         link: 'https://vuepress-theme-reco.recoluan.com',
@@ -80,8 +79,8 @@ module.exports = {
     authorAvatar: '/avatar.png',
     startYear: '2020',
     valineConfig: {
-      appId: 'BOF2aVTCEQJn0Py31n6XgnkX-gzGzoHsz', // your appId
-      appKey: 't57InQaQSoUVPdYJd5tIJPsV', // your appKey
+      appId: 'm4jGv2Gqw5325aV4IV0ahqK5-gzGzoHsz', // your appId
+      appKey: 'ul1kbEfqfDKECzSEeejRFfGC', // your appKey
     },
   },
   plugins: [
