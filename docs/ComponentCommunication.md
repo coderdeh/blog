@@ -127,7 +127,3 @@ categories:
       }
     </script>
     ```
-
-### v-model 的原理
-
-- v-model 是一个语法糖，实际上是 v-bind:value 和 v-on:input 或者 v-on:change 的结合体，v-model 在内部为不通的元素绑定属性，并抛出不同的事件，在 input 标签中绑定 input 事件、checkbox 和 radio 中绑定 change 事件
